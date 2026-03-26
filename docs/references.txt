@@ -2,10 +2,12 @@ exa
 
 - https://exa.ai/blog/webcode
 - avoids information leak by memorizing solutions from existing benchmarks
-- evaluates:
+- evaluation:
     - (1) retrieval quality - do urls contain relevant content to answer query?
     - (2) contents quality - does content answer query?
-        - 
+        - generate expected result by feeding 200+ screenshots (from browserbase) + DOM into a SOTA multimodal model
+        - evaluate with llms completeness, accuracy, structure, signal/noise ratio, recall, longest common subsequence (rogue-l)
+
 
 
 
