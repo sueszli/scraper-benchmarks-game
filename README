@@ -1,0 +1,30 @@
+scraper benchmarks game
+
+scrapers solve two problems:
+
+(1) getting the content
+- HTTP requests with proper headers/cookies/sessions
+- JS-rendered pages (headless browser vs plain HTTP, API calls)
+- pagination and crawling link graphs
+- authentication, rate limiting, IP bans, CAPTCHAs
+- bot detection (fingerprinting, cloudflare, datadome, etc)
+- dynamic selectors, shadow DOM, iframes, cookie banners
+
+(2) parsing
+- extracting structured data from HTML (CSS selectors, XPath)
+- inconsistent/malformed markup and varying page layouts
+- cleaning and normalizing text (encoding, dates/times, URLs)
+- nested/recursive structures (comment threads, trees)
+
+benchmarking challenges
+- ground truth labelling
+- reproducible snapshots/live website
+- metrics (precision/recall per domain, ...).
+
+
+---
+
+inspiration
+
+- https://exa.ai/blog/webcode
+- https://huggingface.co/datasets/firecrawl/scrape-content-dataset-v1
