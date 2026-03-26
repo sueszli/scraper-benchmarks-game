@@ -1,6 +1,8 @@
 exa
 
 - https://exa.ai/blog/webcode
+- https://github.com/exa-labs/benchmarks
+- https://www.google.com/search?q=exa+ai+benchmark&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari
 - avoids information leak by memorizing solutions from existing benchmarks
 - evaluation:
     - (1) retrieval quality - do urls contain relevant content to answer query?
