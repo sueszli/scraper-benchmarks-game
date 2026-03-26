@@ -1,3 +1,14 @@
-study
+exa
+
 - https://exa.ai/blog/webcode
+- avoids information leak by memorizing solutions from existing benchmarks
+- evaluates:
+    - (1) retrieval quality - do urls contain relevant content to answer query?
+    - (2) contents quality - does content answer query?
+        - 
+
+
+
+parallel
+
 - https://parallel.ai/benchmarks
